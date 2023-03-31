@@ -1,0 +1,11 @@
+@startuml
+    interface Drawable {
+        void draw();
+    }
+
+    class Circle implements Drawable {
+        void draw() {
+            // draw circle
+        }
+    }
+@enduml

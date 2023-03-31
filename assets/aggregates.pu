@@ -1,0 +1,9 @@
+@startuml
+    class Library {
+        private List<Book> books;
+    }
+
+    class Book { }
+
+    Library --> Book: aggregates
+@enduml

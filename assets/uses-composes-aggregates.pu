@@ -1,0 +1,9 @@
+@startuml
+    class Zoo {
+        private List<Animal> animals;
+    }
+
+    class Animal { }
+
+    Zoo --> Animal: uses/composes/aggregates
+@enduml

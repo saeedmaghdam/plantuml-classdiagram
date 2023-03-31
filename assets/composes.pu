@@ -1,0 +1,9 @@
+@startuml
+    class Car {
+        private Engine engine;
+    }
+
+    class Engine { }
+
+    Car --> Engine: composes
+@enduml

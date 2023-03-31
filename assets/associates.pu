@@ -1,0 +1,11 @@
+@startuml
+    class Person {
+        private List<Address> addresses;
+    }
+
+    class Address {
+        private Person owner;
+    }
+
+    Person <-> Address: associates
+@enduml

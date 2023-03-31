@@ -1,0 +1,6 @@
+@startuml
+    class Calculator {}
+    class Number {}
+    
+    Calculator --> Number: takes >
+@enduml
